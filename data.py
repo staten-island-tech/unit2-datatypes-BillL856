@@ -45,3 +45,29 @@ elif temp == 68:
 else:
     print('cold') """
 
+#Odd or Even challenge
+
+number = input("Type a number")
+if int(number) % 2 ==0:
+    print("even")
+else:
+    print("odd") 
+
+
+
+#Tip challenge
+bill=input("What is the bill?")
+
+tip=input("What is the tip?")
+
+if tip == 0.00:
+    print(float(bill))
+elif tip == 0.15:
+    final = float(bill) * 1.15
+    print(final)
+
+#Factor challenge
+
+def factor(x,y):
+    if x % y == 0:
+        print (f"{y} is a factor of {x}")
