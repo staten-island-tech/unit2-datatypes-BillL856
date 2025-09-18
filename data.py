@@ -58,16 +58,34 @@ else:
 #Tip challenge
 bill=input("What is the bill?")
 
-tip=input("What is the tip?")
+service=input("How is the service?")
 
-if tip == 0.00:
-    print(float(bill))
-elif tip == 0.15:
-    final = float(bill) * 1.15
-    print(final)
+if service == ("bad"):
+    final= (float(bill)) * 1
+    print(float(f"{final}"))
+elif service == ("okay"):
+    final= (float(bill)) * 1.15
+    print(float(f"{final}"))
+elif service == ("good"):
+    final= (float(bill)) * 1.2
+    print(float(f"{final}"))
+elif service == ("great"):
+    final= (float(bill)) * 1.25
+    print(float(f"{final}"))
 
 #Factor challenge
 
-def factor(x,y):
-    if x % y == 0:
-        print (f"{y} is a factor of {x}")
+""" def factors(x,y):
+    if x % y:
+        print(f"{y} is a factor of {x}")
+    else:
+        print(f"{y} isn't a factor of {x}") """
+
+m= input("Type another number")
+def factors(y):
+    for i in range():
+        if int(m) % y == 0:
+            print(f"{int(y)}")
+        else:
+            print()
+    
