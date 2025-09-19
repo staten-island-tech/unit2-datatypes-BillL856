@@ -81,11 +81,12 @@ elif service == ("great"):
     else:
         print(f"{y} isn't a factor of {x}") """
 
-m= input("Type another number")
+m= input("Type a whole number")
 def factors(y):
-    for i in range():
-        if int(m) % y == 0:
+    for i in range(m):
+        if int(m) % int(y) == 0:
             print(f"{int(y)}")
         else:
-            print()
-    
+            print("")
+
+
