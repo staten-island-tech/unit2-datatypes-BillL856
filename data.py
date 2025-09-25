@@ -81,17 +81,13 @@ elif service == ("great"):
     else:
         print(f"{y} isn't a factor of {x}") """
 
-m= input("Type a whole number")
-def factors(m,y):
+m= int(input("Type a whole number"))
+def factors(m):
     y = []
-    for i in range(1, m):
+    for i in range(1, m+1):
         if int(m) % int(i) == 0:
-            y.append
-        print(y)
-
-    
-
-            
+            y.append(i)
+    print(y)
 
 #GCF challenge
 x= input("Type another whole number")
@@ -99,5 +95,7 @@ y= input("And another one")
 Math.min[x,y]
 for i in min:
     x%i==0 and y%i==0
+
+
 
 
