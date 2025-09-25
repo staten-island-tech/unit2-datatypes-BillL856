@@ -92,10 +92,7 @@ def factors(m):
 #GCF challenge
 x= input("Type another whole number")
 y= input("And another one")
-Math.min[x,y]
+math.min[x,y]
 for i in min:
     x%i==0 and y%i==0
-
-
-
 
