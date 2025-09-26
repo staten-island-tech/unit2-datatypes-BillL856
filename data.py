@@ -48,7 +48,7 @@ else:
 #Odd or Even challenge
 
 number = input("Type a number")
-if int(number) % 2 ==0:
+if int(f"{number}") % 2 ==0:
     print("even")
 else:
     print("odd") 
@@ -89,10 +89,10 @@ def factors(m):
             y.append(i)
     print(y)
 
+
 #GCF challenge
 x= input("Type another whole number")
 y= input("And another one")
-math.min[x,y]
-for i in min:
-    x%i==0 and y%i==0
-
+def gcf(x,y):
+    for i in min:
+        if int(x)%i==0 and int(y)%i==0:
