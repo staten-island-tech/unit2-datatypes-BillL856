@@ -88,11 +88,16 @@ def factors(m):
         if int(m) % int(i) == 0:
             y.append(i)
     print(y)
+factors(m)
 
 
 #GCF challenge
-x= input("Type another whole number")
-y= input("And another one")
+x= int(input("Type another whole number"))
+y= int(input("And another one"))
 def gcf(x,y):
-    for i in min:
-        if int(x)%i==0 and int(y)%i==0:
+    e=[]
+    for i in range(1, min(x,y)+1):
+        if x%i==0 and y%i==0:
+            e.append(i)
+    print(max(e))
+gcf(x,y)
